@@ -1,0 +1,9 @@
+Old A Name DNS IPs
+
+Name: @
+Value: 192.30.252.153
+TTL: 600 seconds
+
+Name: @
+Value: 192.30.252.154
+TTL: 1 Hour
