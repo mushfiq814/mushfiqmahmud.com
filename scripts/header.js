@@ -1,6 +1,6 @@
 let navBar = document.getElementById('nav');
 let navBarItems = [
-  {"href": "/html/index.html", "text": "Home", "newPage": false},
+  {"href": "/index.html", "text": "Home", "newPage": false},
   {"href": "/html/projects.html", "text": "Projects", "newPage": false},
   {"href": "/html/resume.html", "text": "Resume", "newPage": false},
   {"href": "https://medium.com/@mushfiq8194", "text": "Blog", "newPage": true},
@@ -14,7 +14,7 @@ logo.src = '/assets/images/logo/logo.svg';
 logo.width = 80;
 logo.height = 80;
 let imgLink = document.createElement('a');
-imgLink.href = "/html/index.html";
+imgLink.href = "/index.html";
 
 imgLink.appendChild(logo);
 navLeft.appendChild(imgLink);
