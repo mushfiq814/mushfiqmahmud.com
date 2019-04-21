@@ -51,7 +51,7 @@ class TypeWriter {
     // Insert text into the span
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
     
-    console.log(this.txt);
+    // console.log(this.txt);
     // run every certain milliseconds
     setTimeout(() => this.type(), typeSpeed);
   }

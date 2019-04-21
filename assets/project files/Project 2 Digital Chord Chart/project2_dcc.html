@@ -2,27 +2,15 @@
 <html>
 <head>
 	<title>Digital Chord Chart</title>
-	<link rel="shortcut icon" href="./images/logo.ico">
-	<link rel="stylesheet" type="text/css" href="style_headfoot.css">
-	<link rel="stylesheet" type="text/css" href="style_project_main.css">
-	<link rel="stylesheet" type="text/css" href="style_project2_dcc.css">
+	<link rel="shortcut icon" href="/assets/images/logo/logo.ico">
+	<link rel="stylesheet" type="text/css" href="/style/style_headfoot.css">
+	<link rel="stylesheet" type="text/css" href="/style/style_project_main.css">
+	<link rel="stylesheet" type="text/css" href="./style_project2_dcc.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Quicksand:300,400|Rubik:900" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<nav class="nav">
-  	<div class="nav-left">
-    	<a href="index.html"><img src="./images/logo.svg" width="80" height="80"></a>
-  	</div>
-  	<div class="nav-right">
-    	<ul>
-      	<li><a href="index.html">Home</a></li>
-      	<li><a href="projects.html">Projects</a></li>
-				<li><a href="resume.html">Resum&#233</a></li>
-				<li><a href="https://medium.com/@mushfiq8194" target="_blank">Blog</a></li>
-    	</ul>
-  	</div>
-	</nav>
+  <nav class="nav" id="nav"></nav>
 
 	<div class=	"main">
 		<div class="text">
@@ -58,51 +46,34 @@
 		</div>
 		<div class="gallery">
 			<iframe class="square vid" src="https://www.youtube.com/embed/wGREFy-NQYE?rel=0" frameborder="0" allowfullscreen></iframe>
-			<a href="./images/Project2/pic1.jpg" target="_blank"><div class="square l1">
+			<a href="./images/pic1.jpg" target="_blank"><div class="square l1">
 				<p>3D CAD model of the device made in AUtodesk Inventor.</p></div></a>
-			<a href="./images/Project2/pic2.jpg" target="_blank"><div class="square l2">
+			<a href="./images/pic2.jpg" target="_blank"><div class="square l2">
 				<p>LED matrix wiring for the fretboard lights.</p></div></a>
-			<a href="./images/Project2/pic3.jpg" target="_blank"><div class="square l3">
+			<a href="./images/pic3.jpg" target="_blank"><div class="square l3">
 				<p>IR receiver and LCD panel circuitry.</p></div></a>
-			<a href="./images/Project2/pic4.jpg" target="_blank"><div class="square l4">
+			<a href="./images/pic4.jpg" target="_blank"><div class="square l4">
 				<p>The complete working product.</p></div></a>
-			<a href="./images/Project2/pic5.jpg" target="_blank"><div class="square l5">
+			<a href="./images/pic5.jpg" target="_blank"><div class="square l5">
 				<p>The LCD has a menu system which helps to guide the user and calrify what they are seeing.</p></div></a>
-			<a href="./images/Project2/pic6.jpg" target="_blank"><div class="square l6">
+			<a href="./images/pic6.jpg" target="_blank"><div class="square l6">
 				<p>3D printed guiar neck fresh off the printer.</p></div></a>
-			<a href="./images/Project2/pic7.jpg" target="_blank"><div class="square l7">
+			<a href="./images/pic7.jpg" target="_blank"><div class="square l7">
 				<p>My 'amazing' soldering skills. The rows of the matrix were just the LEDs wired using their legs. The colums were tied using magnet wire.</p></div></a>
-			<a href="./images/Project2/pic8.jpg" target="_blank"><div class="square l8">
+			<a href="./images/pic8.jpg" target="_blank"><div class="square l8">
 				<p>Closeup of the soldering.</p></div></a>
 		</div>
 	</div>
 
-	<div class="footer">
-		<div class="quote">
-			<script>
-				function text() {};
-				text = new text();
-				number = 0;
+  <div class="footer">
+    <div class="quote" id="quote"></div>
+    <div id="contact"></div>
+  </div>
 
-				text[number++] = "&quot;Everything should be as simple as it is, but not simpler.&quot;<br/> - Albert Einstein"
-				text[number++] = "&quot;A good engineer does not know everything. He knows how to find it out.&quot;<br/> - Dr. J Celentano, Tunnel Engineer Guru"
-				text[number++] = "&quot;The concern for man and his destiny must always be the chief interest of all technical effort. Never forget it among your diagrams and equations.&quot;<br/> - Albert Einstein"
-				text[number++] = "&quot;The engineer performs many public functions from which he gets only philosophical satisfactions. Most people do not know it, but he is an economic and social force.&quot;<br/> - Herbert Hoover"
-				text[number++] = "&quot;I am and ever will be a white-socks, pocket-protector nerdy engineer. Born under the second law of thermodynamics, steeped in the steam tables, in love with free-body diagrams, transformed by Laplace and propelled by compressible flow.&quot;<br/> - Neil Armstrong"
-
-				increment = Math.floor(Math.random() * number);
-				document.write(text[increment]);
-			</script>
-		</div>
-
-		<div>
-			<a class="contact" href="https://twitter.com/Mushfiq814" target="_blank"><img src="./images/Contact/twitter.svg" width="40" height="40"></a>
-			<a class="contact" href="https://www.youtube.com/channel/UCIpMa1TIioqIYe2RSPTgsTA?view_as=subscriber" target="_blank"><img src="./images/Contact/youtube.svg" width="40" height="40"></a>
-			<a class="contact" href="https://medium.com/@mushfiq8194"	target="_blank"><img src="./images/Contact/medium.svg" width="40" height="40"></a>
-			<a class="contact" href="https://www.linkedin.com/in/mushfiq-mahmud/"	target="_blank"><img src="./images/Contact/linkedin.svg" width="40" height="40"></a>
-			<a class="contact" href="https://github.com/mushfiq814"	target="_blank"><img src="./images/Contact/GitHub.svg" width="40" height="40"></a>
-		</div>
-	</div>
-	<p style = "text-align: center; padding: 10px">Copyright &#169; 2017 Mushfiq Mahmud. All Rights Reserved</p>
+  <p id="copyright"></p>
+  
+  <script src="/scripts/quotes.js"></script>
+  <script src="/scripts/footer.js"></script>
+  <script src="/scripts/header.js"></script>
 </body>
 </html>

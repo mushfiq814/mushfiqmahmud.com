@@ -45,8 +45,6 @@ button {
   border: none;
   display: inline;
   vertical-align: middle;
-  height: 80vh;
-  width: 10%;
 }
 
 button:hover {

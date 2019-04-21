@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stove Safety</title>
+	<link rel="shortcut icon" href="/assets/images/logo/logo.ico">
+	<link rel="stylesheet" type="text/css" href="/style/style_headfoot.css">
+	<link rel="stylesheet" type="text/css" href="/style/style_project_main.css">
+	<link rel="stylesheet" type="text/css" href="./style_project4_stove.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Quicksand:300,400|Rubik:900" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav class="nav" id="nav"></nav>
+
+	<div class=	"main">
+		<div class="text">
+			<h1>Stove Safety Monitor System</h1>
+			<div class="skillContainer">
+				<div class="skill">Logic Design</div>
+				<div class="skill">Timer</div>
+				<div class="skill">Sequential Logic IC</div>
+				<div class="skill">Temperature Sensor</div>
+				<div class="skill">Logical Comparison</div>
+				<div class="skill">Photoresistance</div>
+				<div class="skill">Logisim</div>
+				<div class="skill">OpAmp</div>
+			</div>
+			<p>
+				This was the final project for my Logic Laboratory at USF. The system was designed to monitor a kitchen stove for temperature and the presence of any appliance on one of two burners. If an appliance is removed, while the temperature is still high, the system will trigger an alarm after a certain amount of time is elapsed.<br/><br/>
+				In the video, the test for presence of an appliance was done via a laser and laser detector. Although we tested everything beforehand, during the time of the presentation, we couldn't get the temperature sensing circuit to work properly with the rest of the circuit and that's why you won't be able to see it in the video demonstration. But everything else worked fine. This was a very interesting project since only discrete logic ICs were used to acheive the end result without the help of any microcontrollers. We got to understand the underlying boolean logic that would be needed in order to compute all the necessary calculations.<br/><br/>
+
+				Click on the images to see them in a full view.<br/><br/>
+			</p>
+		</div>
+		<div class="gallery">
+			<iframe class="square vid" width="560" height="315" src="https://www.youtube.com/embed/ryV3nT8pERA" frameborder="0" allowfullscreen></iframe>
+			<a href="./images/pic1.jpg" target="_blank"><div class="square l1">
+				<p>The logic circuitry in the lab.</p></div></a>
+			<a href="./images/pic2.jpg" target="_blank"><div class="square l2">
+				<p>Low-level block diagram describing the logic flow.</p></div></a>
+			<a href="./images/pic3.jpg" target="_blank"><div class="square l3">
+				<p>Photosensing circuit for detecting object removal.</p></div></a>
+			<a href="./images/pic4.jpg" target="_blank"><div class="square l4">
+				<p>Logisim simulation.</p></div></a>
+			<a href="./images/pic5.jpg" target="_blank"><div class="square l5">
+				<p>Temperature sensor circuit with ADC.</p></div></a>
+		</div>
+	</div>
+
+	<div class="footer">
+    <div class="quote" id="quote"></div>
+    <div id="contact"></div>
+  </div>
+
+  <p id="copyright"></p>
+  
+  <script src="/scripts/quotes.js"></script>
+  <script src="/scripts/footer.js"></script>
+  <script src="/scripts/header.js"></script>
+</body>
+</html>

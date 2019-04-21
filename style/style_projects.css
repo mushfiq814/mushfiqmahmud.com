@@ -84,13 +84,13 @@
 	background-color: #333;
 }*/
 
-.g1 {	background-image: url("./images/Projects/Pic1.gif");}
-.g2 { background-image: url("./images/Projects/Pic2.gif");}
-.g3 { background-image: url("./images/Projects/Pic3.jpg");}
-.g4 { background-image: url("./images/Projects/Pic4.jpg");}
-.g5 { background-image: url("./images/Projects/Pic5.gif");}
-.g6 { background-image: url("./images/Projects/Pic6.jpg");}
-.end{ background-image: url("./images/gif1.gif"); padding: 400px 0; clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);}
+.g1 {	background-image: url("../assets/images/project_gifs/Pic1.gif");}
+.g2 { background-image: url("../assets/images/project_gifs/Pic2.gif");}
+.g3 { background-image: url("../assets/images/project_gifs/Pic3.jpg");}
+.g4 { background-image: url("../assets/images/project_gifs/Pic4.jpg");}
+.g5 { background-image: url("../assets/images/project_gifs/Pic5.gif");}
+.g6 { background-image: url("../assets/images/project_gifs/Pic6.jpg");}
+.end{ background-image: url("../assets/images/kid_gaming.gif"); padding: 400px 0; clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);}
 
 .desc {
 	font-weight: 200;
@@ -103,7 +103,7 @@
 	color: var(--hf-fontcolor);
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 700px) {
 	.gallery {
 		clip-path: polygon(100% 0, 100% 95%, 56% 95%, 50% 100%, 44% 95%, 0 95%, 0 0);
 	}
