@@ -34,9 +34,9 @@ body {
 }
 
 .spanWord > .txt {
-  font-family: 'Rubik';
+  font-family: 'Source Code Pro', 'Rubik';
   padding-right: 3px;
-  border-right: 2px solid #ddd;
+  border-right: 1rem solid #ddd;
 }
 
 @-moz-document url-prefix() {
